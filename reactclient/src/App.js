@@ -146,6 +146,7 @@ export default function App() {
       if(postsCopyPost.postId === updatedPost.postId){
         return true;
       }
+      return false;
     });
 
     if(index !== -1){
@@ -164,6 +165,7 @@ export default function App() {
       if(postsCopyPost.postId === deletedPostPostId){
         return true;
       }
+      return false;
     });
 
     if(index !== -1){
